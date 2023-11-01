@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - "main"
+      - "APT10_ANEL_InitRoutine"
+      - "APT10_redleaves_strings"
+      - "APT10_redleaves_dropper1"
+      - "APT10_redleaves_dropper2"
+      - "APT10_redleaves_dll"
     paths:
       - "dependencies/**"
       - "src/**"
